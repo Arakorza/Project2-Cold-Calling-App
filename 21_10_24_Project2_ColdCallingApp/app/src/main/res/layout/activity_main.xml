@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/className"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="Application Development Period 2"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationY="0dp" />
+
+    <TextView
+        android:id="@+id/currentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="[00-00-00]"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationY="80dp" />
+
+    <TextView
+        android:id="@+id/currentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="[00:00:00]"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationY="105dp" />
+
+    <ImageView
+        android:id="@+id/studentPicture"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        app:srcCompat="@drawable/white_square"
+        android:translationY="160dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/studentNameDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationY="530dp" />
+
+    <Button
+        android:id="@+id/randomOutline"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ffffff"
+        android:translationY="657dp"/>
+
+    <Button
+        android:id="@+id/random"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Random"
+        android:layout_centerHorizontal="true"
+        android:translationY="660dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#000000"/>
+
+    <Button
+        android:id="@+id/calledLogOutline"
+        android:layout_width="156dp"
+        android:layout_height="56dp"
+        android:text="Called Log"
+        android:layout_centerHorizontal="true"
+        android:translationY="597dp"
+        android:translationX="-100dp"
+        android:backgroundTint="#ffffff"/>
+
+    <Button
+        android:id="@+id/calledLog"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Called Log"
+        android:layout_centerHorizontal="true"
+        android:translationY="600dp"
+        android:translationX="-100dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#000000"/>
+
+    <Button
+        android:id="@+id/uncalledLogOutline"
+        android:layout_width="156dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:text="Uncalled Log"
+        android:translationY="597dp"
+        android:translationX="100dp"
+        android:backgroundTint="#ffffff"/>
+
+    <Button
+        android:id="@+id/uncalledLog"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Uncalled Log"
+        android:translationY="600dp"
+        android:translationX="100dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#000000"/>
+
+</RelativeLayout>

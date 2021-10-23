@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalledLog"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Uncalled Students"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/listViewCalled"
+        android:layout_width="360dp"
+        android:layout_height="570dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/backRandomButtonOutline"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ffffff"
+        android:translationY="657dp"/>
+
+    <Button
+        android:id="@+id/backRandomButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Random"
+        android:textColor="#ffffff"
+        android:backgroundTint="#000000"
+        android:translationY="660dp"/>
+
+</RelativeLayout>
